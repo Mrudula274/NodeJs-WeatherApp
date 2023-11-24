@@ -29,6 +29,7 @@ https.get(url,(response)=>{
        //console.log(description);
        res.write("<h1>The tempreature in "+query+" is " + temp + "degree celcius</h1>")
        res.write("<p>The weather description is "+description+"</p>")
+        res.write("<h3>CI/CD : Continuous Integration and Continuouse Deployment</h3>")
     })
 })
 // res.send("This is for checking our server")
